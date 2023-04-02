@@ -2,9 +2,8 @@
 
 # Built with
 - ReactJS
-- Semantic HTML5 markup
+- HTML
 - CSS custom properties
-- Flexbox
 - Visual Studio Code
 
 # Users should be able to:
