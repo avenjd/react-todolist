@@ -14,6 +14,7 @@ html {
 .App {
 	max-width: 300px;
 	margin: 0 auto;
+	padding-top: 100px;
 }
 
 .todo {
@@ -59,10 +60,10 @@ html {
 
 .todo__body__tasks {
 	width: 260px;
-	height: 25px;
 	background-color: #fff;
 	border-radius: 5px;
 	margin: 10px 0;
+	padding: 0px 10px;
 	background-color: rgb(137, 162, 239);
 }
 
@@ -70,16 +71,13 @@ html {
 	position: relative;
 	display: flex;
 	align-items: center;
-	margin-left: 5px;
-	height: 25px;
+	justify-content: space-between;
+	height: 30px;
+	font-size: 15px;
 }
 
 .btn-delete {
-	position: absolute;
-	right: 0;
-	top: 50%;
 	background-color: rgb(137, 162, 239);
-	transform: translateY(-50%);
 	border: none;
 	cursor: pointer;
 }
